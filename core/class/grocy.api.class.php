@@ -65,6 +65,11 @@ class grocyAPI {
         return $this->sendCommand( $url );       
     }
 
+    public function getChores() {
+        $url = $this->url . $this->apiChores;
+        return $this->sendCommand( $url );       
+    }
+
     public function getAllProductsStock() {
         $url = $this->url . $this->apiStock;
         return $this->sendCommand( $url );           
