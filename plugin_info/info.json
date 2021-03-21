@@ -1,0 +1,22 @@
+{
+	"id" : "grocy",
+	"name" : "Grocy",
+	"description" : "Plugin Grocy pour le système domotique Jeedom. Grocy est un ERP permettant la gestion de stock de vos aliments et de vos tâches ménagère. Le système est open source est auto-hébergé.",
+	"licence" : "AGPL",
+	"author" : "Johan VIVIEN",
+	"require" : "3.3",
+	"category" : "monitoring",
+	"hasDependency" : false,
+	"hasOwnDeamon" : false,
+	"maxDependancyInstallTime" : 0,
+	"eventjs" : true,
+	"changelog" : "https://hotfirenet.github.io/jeedom_docs/plugins/grocy/fr_FR/changelog.html",
+	"documentation" : "https://hotfirenet.github.io/jeedom_docs/plugins/grocy/fr_FR/",
+	"link" : {
+		"forum":"https://community.jeedom.com/tag/plugin-grocy",
+		"video" : "Lien vers une video"
+	},
+	"language" : ["fr_FR","en_US","sp_SP"],
+	"display" : "panel",
+	"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile"]
+}
